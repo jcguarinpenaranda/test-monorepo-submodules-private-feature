@@ -8,6 +8,7 @@
       "executor": "@nrwl/js:tsc",
       "outputs": ["{options.outputPath}"],
       "options": {
+        "rootDir": ".",
         "outputPath": "dist/packages/private-feature-submodule",
         "main": "packages/private-feature-submodule/src/index.ts",
         "tsConfig": "packages/private-feature-submodule/tsconfig.lib.json",
